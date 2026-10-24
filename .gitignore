@@ -1,4 +1,33 @@
-# Byte-compiled / optimized / DLL files
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Data (large, can be re-downloaded from Hugging Face)
+data/
+*.csv
+*.parquet
+
+# Saved models and TF-IDF vectorizer (large files)
+*.pkl
+*.joblib
+models/
+
+# Hugging Face cache
+.cache/
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets
+.env# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
