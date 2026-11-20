@@ -87,3 +87,10 @@ Python, Google Colab, Hugging Face `datasets`, scikit-learn, pandas, matplotlib,
 2. Hugging Face. Datasets Library.
 3. Scikit-learn Developers. Scikit-learn Machine Learning Library.# ReviewIQ-AI
 ReviewIQ AI is an NLP and machine-learning platform that classifies customer reviews as positive, neutral, or negative (using TF-IDF features on a cleaned Amazon reviews dataset), with plans to add aspect detection, complaint tracking, and business recommendations.
+## Phase 3 and 4: Model and Evaluation
+- Model: TF-IDF + Linear SVM (C=0.1, class_weight=balanced), scikit-learn
+- Test accuracy 0.7047, macro F1 0.6425, macro AUC-ROC 0.8375
+- Notebook: src/ReviewIQ_Deliverable2.ipynb
+- Install: pip install -r requirements.txt
+https://drive.google.com/file/d/1bfz_CzmDg0yrfedqN7_miwbLxRacESBr/view?usp=sharing
+https://drive.google.com/file/d/1t9IHDcgowWx3Gcxb6lg6IqCI3fRrUVYe/view?usp=sharing
